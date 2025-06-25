@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Texture Interattiva - Arte Generativa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <main class="texture-main">
+    <h1>Texture Interattiva</h1>
+    <p>Questa texture è ispirata al pensiero di Theo van Doesburg e realizzata con p5.js. Puoi modificare la dimensione degli elementi tramite lo slider qui sotto e cliccare per rigenerare la composizione.</p>
+    <div id="slider-container">
+      <label for="stepSlider">Step dimensione:</label>
+      <input type="range" id="stepSlider" min="60" max="120" value="90" step="10" />
+    </div>
+    <div id="canvas-container"></div>
+  </main>
+</body>
+</html>
